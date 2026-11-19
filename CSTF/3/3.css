@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdf6f0;
+}
+
+/* Header & Footer */
+
+header,
+footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a,
+footer a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Main Content */
+
+main {
+    padding: 15px;
+}
+
+/* Event Cards */
+
+.event {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px lightgray;
+}
+
+/* Form Styling */
+
+form {
+    background-color: white;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px lightgray;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+label.inline {
+    display: inline;
+    margin-right: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Button */
+
+button {
+    padding: 10px 20px;
+    background-color: maroon;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduMart Learning Store</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="2.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            color: darkgreen;
+        }
+
+        table th {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        .welcome {
+            background-color: gold;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>EduMart: Learning Store</h1>
+
+        <nav>
+            <a href="#books">Books</a>
+            <a href="#stationery">Stationery</a>
+            <a href="#resources">Resources</a>
+            <a href="#prices">Prices</a>
+            <a href="#inquiry">Inquiry</a>
+        </nav>
+    </header>
+
+    <!-- Inline CSS Example -->
+    <div class="welcome" style="color:black;">
+        Everything a student needs, in one place!
+    </div>
+
+    <main>
+
+        <!-- Books Section -->
+        <section id="books">
+            <h2>Books</h2>
+
+            <article class="product">
+                <h3>Science Book for Class 10</h3>
+
+                <img src="https://via.placeholder.com/200x150?text=Science+Book"
+                     alt="Science Book">
+
+                <p>
+                    Easy explanations with diagrams and practice questions.
+                </p>
+
+                <p class="price">Price: ₹350</p>
+
+                <ul>
+                    <li>Pages: 300</li>
+                    <li>Language: English</li>
+                    <li>Includes Solved Examples</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Stationery Section -->
+        <section id="stationery">
+            <h2>Stationery</h2>
+
+            <article class="product">
+                <h3>Geometry Box</h3>
+
+                <img src="https://via.placeholder.com/200x150?text=Geometry+Box"
+                     alt="Geometry Box">
+
+                <p>
+                    A complete set for maths drawing work.
+                </p>
+
+                <p class="price">Price: ₹120</p>
+
+                <ul>
+                    <li>Compass and Divider</li>
+                    <li>Scale and Protractor</li>
+                    <li>Pencil and Eraser</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Learning Resources Section -->
+        <section id="resources">
+            <h2>Learning Resources</h2>
+
+            <article class="product">
+                <h3>World Globe</h3>
+
+                <img src="https://via.placeholder.com/200x150?text=World+Globe"
+                     alt="World Globe">
+
+                <p>
+                    Learn countries and oceans in a fun way.
+                </p>
+
+                <p class="price">Price: ₹600</p>
+
+                <ul>
+                    <li>Size: 12 Inch</li>
+                    <li>Rotating Stand</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Price Table -->
+        <section id="prices">
+            <h2>Price List</h2>
+
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Science Book for Class 10</td>
+                    <td>Books</td>
+                    <td>₹350</td>
+                </tr>
+
+                <tr>
+                    <td>Geometry Box</td>
+                    <td>Stationery</td>
+                    <td>₹120</td>
+                </tr>
+
+                <tr>
+                    <td>World Globe</td>
+                    <td>Learning Resources</td>
+                    <td>₹600</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Ordered List -->
+        <section>
+            <h2>How to Buy</h2>
+
+            <ol>
+                <li>Choose your product.</li>
+                <li>Fill the inquiry form below.</li>
+                <li>We will call you back.</li>
+            </ol>
+        </section>
+
+        <!-- Hyperlink -->
+        <section>
+            <h2>Study Resources</h2>
+
+            <p>
+                Free Study Material:
+                <a href="https://ncert.nic.in/" target="_blank">
+                    Visit NCERT Website
+                </a>
+            </p>
+        </section>
+
+        <!-- Inquiry Form -->
+        <section id="inquiry">
+            <h2>Inquiry Form</h2>
+
+            <form action="#">
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="product">Product:</label>
+                <select id="product" name="product">
+                    <option>Books</option>
+                    <option>Stationery</option>
+                    <option>Learning Resources</option>
+                </select>
+
+                <label for="question">Your Question:</label>
+                <textarea id="question" rows="5"></textarea>
+
+                <button type="submit">Send Inquiry</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Email: info@edumart.com</p>
+        <p>&copy; 2026 EduMart Learning Store</p>
+    </footer>
+
+</body>
+</html>

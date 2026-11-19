@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Registration Form</h1>
+
+        <form onsubmit="return validateForm()">
+
+            <label>Username</label>
+            <input type="text" id="username">
+            <span id="usernameError" class="error"></span>
+
+            <label>Email</label>
+            <input type="text" id="email">
+            <span id="emailError" class="error"></span>
+
+            <label>Mobile Number</label>
+            <input type="text" id="mobile">
+            <span id="mobileError" class="error"></span>
+
+            <label>Age</label>
+            <input type="text" id="age">
+            <span id="ageError" class="error"></span>
+
+            <label>Password</label>
+            <input type="password" id="password">
+            <span id="passwordError" class="error"></span>
+
+            <label>Confirm Password</label>
+            <input type="password" id="confirmPassword">
+            <span id="confirmPasswordError" class="error"></span>
+
+            <label>Select Course</label>
+            <select id="course">
+                <option value="">-- Select Course --</option>
+                <option>Web Development</option>
+                <option>Python Programming</option>
+                <option>Data Science</option>
+                <option>Cyber Security</option>
+            </select>
+            <span id="courseError" class="error"></span>
+
+            <br><br>
+
+            <button type="submit">
+                Register
+            </button>
+
+            <p id="success" class="success"></p>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

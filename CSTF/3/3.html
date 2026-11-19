@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechFest 2026</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="3.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            color: maroon;
+        }
+
+        .notice {
+            background-color: yellow;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        form h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>TechFest 2026</h1>
+        <h3>ABC College of Engineering</h3>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#events">Events</a>
+            <a href="#rules">Rules</a>
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+
+    <!-- Inline CSS Example -->
+    <div class="notice" style="color:red;">
+        Last date to register is 5 December 2026.
+    </div>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About TechFest</h2>
+
+            <p>
+                TechFest is our yearly college festival. Students show their
+                talent in technology, culture and sports.
+            </p>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events">
+            <h2>Our Events</h2>
+
+            <article class="event">
+                <h3>Coding Contest</h3>
+
+                <p>Solve programming problems in 2 hours.</p>
+
+                <ul>
+                    <li>Date: 10 December 2026</li>
+                    <li>Time: 10:00 AM</li>
+                    <li>Venue: Computer Lab 1</li>
+                </ul>
+            </article>
+
+            <article class="event">
+                <h3>Quiz Competition</h3>
+
+                <p>A fun quiz on science and general knowledge.</p>
+
+                <ul>
+                    <li>Date: 11 December 2026</li>
+                    <li>Time: 11:00 AM</li>
+                    <li>Venue: Seminar Hall</li>
+                </ul>
+            </article>
+
+            <article class="event">
+                <h3>Dance Show</h3>
+
+                <p>Solo and group dance performances.</p>
+
+                <ul>
+                    <li>Date: 12 December 2026</li>
+                    <li>Time: 5:00 PM</li>
+                    <li>Venue: Main Auditorium</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Rules Section -->
+        <section id="rules">
+            <h2>Rules</h2>
+
+            <ol>
+                <li>Bring your college ID card.</li>
+                <li>Reach the venue 15 minutes early.</li>
+                <li>One student can join at most two events.</li>
+            </ol>
+
+            <p>
+                More Details:
+                <a href="https://www.example.com" target="_blank">
+                    College Website
+                </a>
+            </p>
+        </section>
+
+        <!-- Registration Form -->
+        <section id="register">
+            <form action="#">
+                <h2>Registration Form</h2>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" required>
+
+                <label for="event">Choose Event:</label>
+                <select id="event">
+                    <option>-- Select --</option>
+                    <option>Coding Contest</option>
+                    <option>Quiz Competition</option>
+                    <option>Dance Show</option>
+                </select>
+
+                <label>Year of Study:</label>
+
+                <label class="inline">
+                    <input type="radio" name="year"> FY
+                </label>
+
+                <label class="inline">
+                    <input type="radio" name="year"> SY
+                </label>
+
+                <label class="inline">
+                    <input type="radio" name="year"> TY
+                </label>
+
+                <br><br>
+
+                <label class="inline">
+                    <input type="checkbox">
+                    I agree to follow the rules
+                </label>
+
+                <br><br>
+
+                <button type="submit">
+                    Register Now
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: techfest@abccollege.edu</p>
+        <p>&copy; 2026 ABC College</p>
+    </footer>
+
+</body>
+</html>

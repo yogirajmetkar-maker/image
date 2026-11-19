@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    color: darkblue;
+}
+.card {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px lightgray;
+}
+.card a {
+    color: darkblue;
+    text-decoration: none;
+}
+.author {
+    color: gray;
+    font-style: italic;
+}
